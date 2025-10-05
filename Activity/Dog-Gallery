@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.container{
+    height: 100vh;
+    width: 100vw;
+   display: grid;
+    background-color: cornsilk;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+    
 
+}
+.box{
+     background-color: coral;
+     width: 100%;
+     height: 100%;
+     
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 640px){
+   .container{
+    height: 100vh;
+    display: flex;
+
+   }
+    
+}
+
+
+</style>
+<body>
+    <h1>Dog Gallery</h1>
+    <div class="container">
+        <div class="box">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.3J2q-ML2eSU3xPhgV4ez0AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3">"
+        </div>
+         <div class="box">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/003/018/949/small_2x/close-up-portrait-of-tricolor-australian-shepherd-dog-lying-on-the-table-of-a-natural-eye-park-around-him-free-photo.jpeg">
+        </div>
+         <div class="box">
+            <img src="https://talktodogs.com/wp-content/uploads/2023/08/Australian-Shepherd-Grooming-1024x683.jpeg">
+        </div>
+         <div class="box">
+            <img src="https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500">
+        </div>
+         <div class="box">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.QxXyEL8pFeLg1lI0eVonwQHaGc?rs=1&pid=ImgDetMain&o=7&rm=3">
+        </div>
+         <div class="box">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.Ydt6Je4bEhPQoD5O9fCq2gHaFo?rs=1&pid=ImgDetMain&o=7&rm=3">
+        </div>
+         <div class="box">
+            <img src="https://images6.alphacoders.com/678/678636.jpg">
+        </div>
+         <div class="box">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.M6JXDQk9Rld1MLCH5z9FEwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3">
+        </div>
+         <div class="box">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.8vlhrmKcMvr0Wjsz4wP8twHaE8?w=1600&h=1067&rs=1&pid=ImgDetMain&o=7&rm=3">
+        </div>
+        </div>
+        
+</body>
+</html>
